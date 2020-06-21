@@ -85,55 +85,56 @@
 
 //TASK 11
 
-// var a = prompt("enter lowercase input")
-// document.write("User input : "+a+"<br>")
-// var b= a.slice(0,1)
-// var b = b.toUpperCase()
-// //document.write(b)
-// var a =a.slice(1,a.length)
-// var c= b.concat(a)
-// document.write("<br>Titel case : "+c)
+// var inp = prompt("enter lowercase input");
+// document.write("User input : "+inp+"<br>");
+// var a= inp.slice(0,1);
+// var a = a.toUpperCase();
+// //document.write(a);
+// var inp =inp.slice(1,inp.length);
+// var b= a.concat(inp);
+// document.write("<br>Titel case : "+b);
 
 
 
 //TASK 12
  
-// var a =35.36;
-// document.write("Number : "+a+"<br>")
-// var b =a.toString()
-// var c =b.replace(".","");
-// document.write("Result  : "+c)
+// var num =35.36;
+// document.write("Number : "+num)
+// var str =num.toString()
+// var c =str.replace(".","");
+// document.write("<br> Result  : "+c)
 
 
 
 //TASK 13
 
-// var a = prompt("Enter username")
-// for (var i = 0; i < a.length; i++) {
-// 	b = a.charAt(i)
-// 	b=b.charCodeAt(0)
-// 	if (b ==33 || b==44 || b==46 || b==64){
-// 		document.write("Enter a valid username")
+// var name = prompt("Enter your name:");
+// for (var i = 0; i < name.length; i++) {
+// 	a = name.charAt(i)
+// 	a=a.charCodeAt(0)
+// 	if (a ==33 || a==44 || a==46 || a==64){
+// 		alert("Enter a valid username !");
 // 	}
 // }
+
 
 
 //TASK 14
 
-// var a=["cake","appel pie","cookie","chips","patties"]
-// document.write(a+"<br>")
-// var b = prompt("enter item to be search ")
-// b=b.toLowerCase()
-// function find(b){
-// 	for (var i =0 ; i< a.length; i++){
-// 	if (a[i]==b) {
-// 		document.write(a[i]+" item is <strong>avaliable</strong> at index "+i+" i our bakery")
+// var items=["cake","apple pie","cookie","chips","patties"]
+// document.write(items+"<br>")
+// var order = prompt("Welcome to our bakery !! What do you want to order sir/ma'am ?? ")
+// order=order.toLowerCase()
+// function find(order){
+// 	for (var i =0 ; i< items.length; i++){
+// 	if (items[i]==order) {
+// 		document.write(items[i]+" item is <strong>avaliable</strong> at index "+i+" in our bakery")
 // 		return;
 // 	}
 // }
-// document.write("we are sorry "+b+" is <strong>not avaliable</strong> in our bakery")
+// document.write("we are sorry "+order+" is <strong>not avaliable</strong> in our bakery")
 // }
-// find(b)
+// find(order)
 
 
 
